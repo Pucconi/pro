@@ -64,11 +64,13 @@ namespace project
             {
                 MessageBox.Show(ex.Message.ToString(), "Error");
             }
+            trya.Visibility = Visibility.Visible;
         }
 
-        private void Button_PreviewKeyDown(object sender, KeyEventArgs e)
+        private void trya_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
             webBrowser1.Visibility = Visibility.Hidden;
+            trya.Visibility = Visibility.Hidden;
         }
     }
 }

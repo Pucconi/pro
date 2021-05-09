@@ -27,8 +27,8 @@
         <Button Content="Noclegi" HorizontalAlignment="Left" Height="43" Margin="304,372,0,0" VerticalAlignment="Top" Width="160"/>
         <Button Content="Restauracje" HorizontalAlignment="Left" Height="43" Margin="570,372,0,0" VerticalAlignment="Top" Width="160"/>
         <TextBox Name="LAB1" HorizontalAlignment="Left" FontSize="40"  Height="57" Margin="240,27,0,0" TextWrapping="Wrap" Text="Barcelona" VerticalAlignment="Top" Width="192"/>
-        <WebBrowser Name="webBrowser1"  HorizontalAlignment="Left" Height="416" VerticalAlignment="Top" Width="794" Margin="0,27,-0.4,0" Visibility="Hidden"/>
-        <Button Content="Zamknij" HorizontalAlignment="Left" Margin="620,3,0,0" VerticalAlignment="Top" Width="110" Height="24" PreviewKeyDown="Button_PreviewKeyDown"/>
+        <WebBrowser Name="webBrowser1"  HorizontalAlignment="Left" Height="416" VerticalAlignment="Top" Width="794" Margin="0,-1,0,0" Visibility="Hidden"/>
+        <Button Name="trya" Content="Zamknij" HorizontalAlignment="Left" Margin="644,415,0,0" VerticalAlignment="Top" Width="110" Height="24" PreviewMouseDown="trya_PreviewMouseDown" Visibility="Hidden"/>
 
 
     </Grid>
