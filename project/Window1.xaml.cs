@@ -33,6 +33,7 @@ namespace project
 
         private void butt1_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
+            webBrowser1.Visibility = Visibility.Visible;
             string Kraj = LAB1.Text;
             string Miasto = LAB1.Text;
             string Hotel = LAB1.Text;
@@ -63,6 +64,11 @@ namespace project
             {
                 MessageBox.Show(ex.Message.ToString(), "Error");
             }
+        }
+
+        private void Button_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            webBrowser1.Visibility = Visibility.Hidden;
         }
     }
 }
