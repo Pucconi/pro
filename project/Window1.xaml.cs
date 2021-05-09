@@ -32,10 +32,10 @@ namespace project
         private void Button_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
 
-            string Kraj = Label_LAB1.text;
-            string Miasto = Label.Content;
-            string Hotel = Label.Content;
-            string Zabytek = Label.Content;
+            string Kraj = LAB1.Text;
+            string Miasto = LAB1.Text;
+            string Hotel = LAB1.Text;
+            string Zabytek = LAB1.Text;
             try
             {
                 StringBuilder adres = new StringBuilder();

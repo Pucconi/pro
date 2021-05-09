@@ -26,7 +26,7 @@
         <Button Content="Dojazd do miasta" HorizontalAlignment="Left" Height="43" Margin="39,372,0,0" VerticalAlignment="Top" Width="160"/>
         <Button Content="Noclegi" HorizontalAlignment="Left" Height="43" Margin="304,372,0,0" VerticalAlignment="Top" Width="160"/>
         <Button Content="Restauracje" HorizontalAlignment="Left" Height="43" Margin="570,372,0,0" VerticalAlignment="Top" Width="160"/>
-        <TextBox Name="" HorizontalAlignment="Left" FontSize="40"  Height="57" Margin="240,27,0,0" TextWrapping="Wrap" Text="Barcelona" VerticalAlignment="Top" Width="192"/>
+        <TextBox Name="LAB1" HorizontalAlignment="Left" FontSize="40"  Height="57" Margin="240,27,0,0" TextWrapping="Wrap" Text="Barcelona" VerticalAlignment="Top" Width="192"/>
 
 
     </Grid>
