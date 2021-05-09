@@ -29,9 +29,10 @@ namespace project
             this.Close();
         }
 
-        private void Button_PreviewMouseDown(object sender, MouseButtonEventArgs e)
-        {
+       
 
+        private void butt1_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
             string Kraj = LAB1.Text;
             string Miasto = LAB1.Text;
             string Hotel = LAB1.Text;
@@ -39,7 +40,7 @@ namespace project
             try
             {
                 StringBuilder adres = new StringBuilder();
-                adres.Append("https://www.google.pl/maps/?q=");
+                adres.Append("https://www.bing.com/maps?q=");
                 if (Kraj != string.Empty)
                 {
                     adres.Append(Kraj + "," + "+");
