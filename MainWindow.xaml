@@ -1,0 +1,33 @@
+﻿<Window x:Class="project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project"
+        mc:Ignorable="d"
+        Title="BDG Travel" Height="540" Width="800" WindowStyle="None">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="15"></WindowChrome>
+    </WindowChrome.WindowChrome>
+
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="1000" Margin="160,-6,0,-6.4" VerticalAlignment="Top" Width="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="1" Margin="1,103,0,0" VerticalAlignment="Top" Width="159"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="1" Margin="0,203,0,0" VerticalAlignment="Top" Width="161"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="1" Margin="0,153,0,0" VerticalAlignment="Top" Width="161"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="1" Margin="0,253,0,0" VerticalAlignment="Top" Width="161"/>
+        <Button x:Name="wyjsc" Padding="2" Margin="736,10,9.6,486.6" Background="Transparent" BorderThickness="0" Click="wyjsc_Click">
+            <Image Source="C:\Users\Mateusz\source\repos\project\img1.png" Height="27" Width="41" RenderTransformOrigin="0.023,-0.356" />
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="10,52,0,0" FontSize="15" FontFamily="Comic Sans MS" TextWrapping="Wrap" BorderThickness="4.0" BorderBrush="Black" Text="Wyszukaj" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.492,0.451" UndoLimit="25"/>
+        <Label Margin="10,10,602.6,486.6" FontSize="25" FontFamily="Impact" VerticalContentAlignment="Center" Foreground="Black" PreviewMouseDown="Label_PreviewMouseDown_1" >BDG Travel</Label>
+        <Frame NavigationUIVisibility="Hidden"  Margin="166,52,9.6,9.6" Name="MainFrame"/>
+        <StackPanel HorizontalAlignment="Center"  Height="472" Margin="1,52,4.6,0" VerticalAlignment="Top" Width="788">
+            <Label Content="Ulubione" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="1,52,0,0" VerticalAlignment="Top" Height="50" Width="160" PreviewMouseDown="Label_PreviewMouseDown"/>
+            <Label Content="Historia przeglądania" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+            <Label Content="Odwiedzone miejsca" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
