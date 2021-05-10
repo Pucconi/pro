@@ -9,8 +9,8 @@
     <Grid>
         <Image HorizontalAlignment="Left" Source="C:\Users\Mateusz\source\repos\project\barca.jpg" Height="120" Margin="39,27,0,0" VerticalAlignment="Top" Width="160"/>
 
-        <TextBlock  HorizontalAlignment="Left" Height="195" Margin="39,172,0,0" TextWrapping="Wrap" FontFamily="Comic Sans MS" FontSize="15"  VerticalAlignment="Top" Width="506">Miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 620 809 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców.</TextBlock>
-        <ListBox HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="13" Height="195" Margin="570,172,0,0" VerticalAlignment="Top" Width="184">
+        <TextBlock x:Name="Desc"  HorizontalAlignment="Left" Height="195" Margin="39,172,0,0" TextWrapping="Wrap" FontFamily="Comic Sans MS" FontSize="15"  VerticalAlignment="Top" Width="506">Miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 620 809 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców.</TextBlock>
+        <ListBox x:Name="Places" HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="13" Height="195" Margin="570,172,0,0" VerticalAlignment="Top" Width="184">
             <ListBoxItem Content="Sagrada Familia" />
             <ListBoxItem Content="Parc Guell"/>
             <ListBoxItem Content="Camp Nou"/>
@@ -19,7 +19,7 @@
             <ListBoxItem Content="Barri Gotic"/>
         </ListBox>
         <Label Content="Ciekawe miejsca:" HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="15" Height="32" Margin="570,140,0,0" VerticalAlignment="Top" Width="184"/>
-        <CheckBox Content="Dodaj do ulubionych" FontFamily="Comic Sans MS" FontSize="13" HorizontalAlignment="Left" Margin="221,105,0,0" VerticalAlignment="Top" Height="42" Width="151"/>
+        <CheckBox x:Name="Favorit" Content="Dodaj do ulubionych" FontFamily="Comic Sans MS" FontSize="13" HorizontalAlignment="Left" Margin="221,105,0,0" VerticalAlignment="Top" Height="42" Width="151"/>
         <Button  HorizontalAlignment="Left" Height="43" Margin="681,10,0,0" VerticalAlignment="Top" Width="73" Click="Button_Click">
             <Image Source="C:\Users\Mateusz\source\repos\project\img1.png" Height="33" Width="60" RenderTransformOrigin="0.023,-0.356"/>
         </Button>

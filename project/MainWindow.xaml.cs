@@ -15,10 +15,7 @@ using System.Windows.Shapes;
 
 namespace project
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+      public partial class MainWindow : Window
     {
         Page1 page1 = new Page1();
         public MainWindow()
@@ -36,12 +33,22 @@ namespace project
 
         private void Label_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainFrame.Content = null;
+            MainFrame.Content = new Page2();
         }
 
         private void Label_PreviewMouseDown_1(object sender, MouseButtonEventArgs e)
         {
             MainFrame.Content = new Page1();
+        }
+
+        private void Label_PreviewMouseDown_2(object sender, MouseButtonEventArgs e)
+        {
+            MainFrame.Content = new Page3();
+        }
+
+        private void Label_PreviewMouseDown_3(object sender, MouseButtonEventArgs e)
+        {
+            MainFrame.Content = new Page4();
         }
     }
 }

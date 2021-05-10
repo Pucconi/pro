@@ -24,8 +24,8 @@
         <Frame NavigationUIVisibility="Hidden"  Margin="166,52,9.6,9.6" Name="MainFrame"/>
         <StackPanel HorizontalAlignment="Center"  Height="472" Margin="1,52,4.6,0" VerticalAlignment="Top" Width="788">
             <Label Content="Ulubione" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="1,52,0,0" VerticalAlignment="Top" Height="50" Width="160" PreviewMouseDown="Label_PreviewMouseDown"/>
-            <Label Content="Historia przeglądania" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
-            <Label Content="Odwiedzone miejsca" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="50" Width="160"/>
+            <Label Content="Historia przeglądania" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="50" Width="160" PreviewMouseDown="Label_PreviewMouseDown_2"/>
+            <Label Content="Odwiedzone miejsca" FontSize="15" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="50" Width="160" PreviewMouseDown="Label_PreviewMouseDown_3"/>
 
         </StackPanel>
 
