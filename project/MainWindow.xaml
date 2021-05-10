@@ -19,7 +19,7 @@
         <Button x:Name="wyjsc" Padding="2" Margin="736,10,9.6,486.6" Background="Transparent" BorderThickness="0" Click="wyjsc_Click">
             <Image Source="C:\Users\Mateusz\source\repos\project\img1.png" Height="27" Width="41" RenderTransformOrigin="0.023,-0.356" />
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="35" Margin="10,52,0,0" FontSize="15" FontFamily="Comic Sans MS" TextWrapping="Wrap" BorderThickness="4.0" BorderBrush="Black" Text="Wyszukaj" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.492,0.451" UndoLimit="25"/>
+        <TextBox x:Name="Wyszukaj" HorizontalAlignment="Left" Height="35" Margin="10,52,0,0" FontSize="15" FontFamily="Comic Sans MS" TextWrapping="Wrap" BorderThickness="4.0" BorderBrush="Black" Text="Wyszukaj" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.492,0.451" UndoLimit="25"/>
         <Label Margin="10,10,602.6,486.6" FontSize="25" FontFamily="Impact" VerticalContentAlignment="Center" Foreground="Black" PreviewMouseDown="Label_PreviewMouseDown_1" >BDG Travel</Label>
         <Frame NavigationUIVisibility="Hidden"  Margin="166,52,9.6,9.6" Name="MainFrame"/>
         <StackPanel HorizontalAlignment="Center"  Height="472" Margin="1,52,4.6,0" VerticalAlignment="Top" Width="788">
