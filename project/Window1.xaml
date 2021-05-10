@@ -29,6 +29,7 @@
         <TextBox Name="LAB1" HorizontalAlignment="Left" FontSize="40"  Height="57" Margin="240,27,0,0" TextWrapping="Wrap" Text="Barcelona" VerticalAlignment="Top" Width="192"/>
         <WebBrowser Name="webBrowser1"  HorizontalAlignment="Left" Height="416" VerticalAlignment="Top" Width="794" Margin="0,-1,0,0" Visibility="Hidden"/>
         <Button Name="trya" Content="Zamknij" HorizontalAlignment="Left" Margin="644,415,0,0" VerticalAlignment="Top" Width="110" Height="24" PreviewMouseDown="trya_PreviewMouseDown" Visibility="Hidden"/>
+        <CheckBox x:Name="Odwiedzone" Content="Odwiedziłeś to miejsce?" HorizontalAlignment="Left" Height="42" Margin="399,105,0,0" VerticalAlignment="Top" Width="171" FontFamily="Comic Sans MS" FontSize="13"/>
 
 
     </Grid>
