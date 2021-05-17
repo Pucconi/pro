@@ -30,5 +30,18 @@ namespace project
             var win = new Window1();
             win.Show();
         }
+
+        private void Label_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            var win = new Window2();
+            win.Show();
+        }
+
+        private void par_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var win = new Window2();
+            win.Show();
+        }
     }
-}
+ }
+
